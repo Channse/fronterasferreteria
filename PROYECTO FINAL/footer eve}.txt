@@ -1,0 +1,58 @@
+<footer class="footer">
+    <div class="footer-content container">
+
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+                <li><a h ref="#">lorem</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+</footer
+
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+diseño
+
+
+

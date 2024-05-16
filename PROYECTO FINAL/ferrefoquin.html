@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Nuestros productos!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #e1e1e1;
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffe100;
+      color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      background-color: #000000;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #000000;
+      padding: 20px;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h5 {
+      font-size: 30px;
+    }
+
+    section {
+      color: black;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #1ACB78; /* Verde (#1ACB78) */
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 100px;
+    }
+
+    .category-card {
+      border: px solid #ccc;
+      border-color: white;
+      background-color: white;
+      border-radius: 5px;
+      padding: 10px;
+      width: 1500px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .category-image {
+      display: none;
+    }
+
+    .category-card h3 {
+      color: black;
+    }
+
+    .category-card p {
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="display: flex; align-items: center;">
+    <img src="E:\PROYECTO FINAL\logo.png" style="width: 100px;height: 100px;">
+    <h1 style="margin-left: 20px; text-align: right;">
+      <section>
+        <h2>ELECTRICIDAD</h2>
+        <h5>Somos tu mejor opción en productos electricos, cableado de la mejor calidad ¡Visítanos!</h5>
+      </section>
+    </h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <p></p>
+      </li>
+      <li>
+        <a href="E:\PROYECTO FINAL\ferre32.html">Inicio</a></li>
+
+      <li>
+        <a href="E:\PROYECTO FINAL\ferreProductos.html">Productos</a></li>
+
+      <li>
+        <a href="E:\PROYECTO FINAL\ferreservicios.html">Servicios</a></li>
+
+      <li>
+        <a href="E:\PROYECTO FINAL\ferrecontactos.html">Nosotros</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- DIVISON DE PRODUCTOS -->
+
+  <section>
+    <div class="container">
+
+<div class="category-card">
+    <h4>1. Cable THHN/THWN</h4>
+    <p>Cable eléctrico de cobre con aislamiento de nylon resistente al calor y la humedad. Material: Cobre. Color: Varios colores disponibles.</p>
+    <p class="price">$15 MXN por metro</p>
+</div>
+
+<div class="category-card">
+    <h4>2. Interruptor de luz</h4>
+    <p>Interruptor de encendido y apagado para controlar la iluminación en una habitación. Material: Plástico y metal. Color: Blanco o marfil.</p>
+    <p class="price">$25 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>3. Enchufe y tomacorriente</h4>
+    <p>Conjunto de enchufe y tomacorriente para conectar dispositivos eléctricos a la red. Material: Plástico y metal. Color: Blanco o marfil.</p>
+    <p class="price">$35 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>4. Tubo conduit PVC</h4>
+    <p>Tubo de plástico utilizado para proteger y guiar los cables eléctricos en instalaciones eléctricas. Material: PVC (Cloruro de polivinilo). Color: Gris.</p>
+    <p class="price">$10 MXN por metro</p>
+</div>
+
+<div class="category-card">
+    <h4>5. Fusible</h4>
+    <p>Dispositivo de protección utilizado para interrumpir el flujo de corriente en caso de sobrecarga o cortocircuito. Material: Metal y vidrio. Color: Transparente o plateado.</p>
+    <p class="price">$5 MXN por unidad</p>
+</div>
+
+<div class="category-card">
+    <h4>6. Alicates pelacables</h4>
+    <p>Herramienta utilizada para quitar el revestimiento de plástico de los cables eléctricos. Material: Acero y plástico. Color: Rojo y negro.</p>
+    <p class="price">$50 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>7. Multímetro digital</h4>
+    <p>Herramienta de medición utilizada para medir voltaje, corriente y resistencia en circuitos eléctricos. Material: Plástico y metal. Color: Amarillo y negro.</p>
+    <p class="price">$300 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>8. Interruptor diferencial</h4>
+    <p>Dispositivo de protección utilizado para detectar fugas de corriente y desconectar el suministro eléctrico en caso de peligro. Material: Plástico y metal. Color: Amarillo y blanco.</p>
+    <p class="price">$200 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>9. Cinta aislante</h4>
+    <p>Cinta adhesiva utilizada para aislar y proteger las conexiones eléctricas. Material: PVC (Cloruro de polivinilo). Color: Varios colores disponibles.</p>
+    <p class="price">$10 MXN por rollo</p>
+</div>
+
+<div class="category-card">
+    <h4>10. Destornillador aislado</h4>
+    <p>Destornillador con mango aislado para trabajar en circuitos eléctricos de forma segura. Material: Acero y plástico. Color: Amarillo y negro.</p>
+    <p class="price">$60 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>11. Tubo termocontraíble</h4>
+    <p>Tubo utilizado para proteger y aislar las conexiones eléctricas, se contrae al aplicar calor. Material: Poliolefina. Color: Varios colores disponibles.</p>
+    <p class="price">$15 MXN por metro</p>
+</div>
+
+<div class="category-card">
+    <h4>12. Caja de conexiones eléctricas</h4>
+    <p>Caja utilizada para alojar y proteger las conexiones eléctricas en instalaciones eléctricas. Material: Plástico. Color: Gris.</p>
+    <p class="price">$50 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>13. Sierra caladora</h4>
+    <p>Herramienta eléctrica utilizada para hacer cortes precisos en madera, metal y otros materiales. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$800 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>14. Taladro eléctrico</h4>
+    <p>Herramienta eléctrica utilizada para hacer perforaciones en diferentes materiales, como madera, metal y concreto. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$500 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>15. Caja de distribución eléctrica</h4>
+    <p>Caja utilizada para distribuir y proteger las conexiones eléctricas en una instalación eléctrica. Material: Metal y plástico. Color: Gris.</p>
+    <p class="price">$100 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>16. Alicate de corte</h4>
+    <p>Herramienta utilizada para cortar cables y alambres de forma precisa y fácil. Material: Acero y plástico. Color: Rojo y negro.</p>
+    <p class="price">$70 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>17. Tubo conduit metálico</h4>
+    <p>Tubo de metal utilizado para proteger y guiar los cables eléctricos en instalaciones eléctricas. Material: Metal. Color: Gris.</p>
+    <p class="price">$30 MXN por metro</p>
+</div>
+
+<div class="category-card">
+    <h4>18. Contacto eléctrico</h4>
+    <p>Conector utilizado para realizar conexiones eléctricas seguras y confiables. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$10 MXN por unidad</p>
+</div>
+
+<div class="category-card">
+    <h4>19. Nivel de burbuja</h4>
+    <p>Herramienta utilizada para verificar la nivelación tanto en superficies horizontales como verticales. Material: Plástico y vidrio. Color: Varios colores disponibles.</p>
+    <p class="price">$50 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>20. Caja de herramientas</h4>
+    <p>Caja resistente utilizada para almacenar y transportar herramientas eléctricas y manuales. Material: Plástico o metal. Color: Varios colores disponibles.</p>
+    <p class="price">$200 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>21. Brocas para concreto</h4>
+    <p>Brocas especialmente diseñadas para perforar concreto y materiales similares. Material: Metal. Color: Plateado.</p>
+    <p class="price">$20 MXN por unidad</p>
+</div>
+
+<div class="category-card">
+    <h4>22. Cable de extensión</h4>
+    <p>Cable eléctrico utilizado para extender el alcance de los enchufes y tomacorrientes. Material: Cobre y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$50 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>23. Cable UTP</h4>
+    <p>Cable utilizado para transmitir datos en redes de área local (LAN) como Ethernet. Material: Cobre y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$10 MXN por metro</p>
+</div>
+
+<div class="category-card">
+    <h4>24. Destornillador eléctrico</h4>
+    <p>Herramienta eléctrica utilizada para atornillar y desatornillar tornillos con mayor facilidad y rapidez. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$400 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>25. Cinta de señalización</h4>
+    <p>Cinta utilizada para marcar y señalizar áreas o cables eléctricos. Material: Plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$20 MXN por rollo</p>
+</div>
+
+<div class="category-card">
+    <h4>26. Tijeras pelacables</h4>
+    <p>Herramienta utilizada para pelar y cortar cables eléctricos de forma rápida y precisa. Material: Acero y plástico. Color: Rojo y negro.</p>
+    <p class="price">$50 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>27. Batería recargable</h4>
+    <p>Batería utilizada como fuente de energía para dispositivos eléctricos y herramientas inalámbricas. Material: Litio o níquel-cadmio. Color: Varios colores disponibles.</p>
+    <p class="price">$100 MXN por unidad</p>
+</div>
+
+<div class="category-card">
+    <h4>28. Detector de voltaje sin contacto</h4>
+    <p>Herramienta utilizada para detectar la presencia de voltaje en cables y dispositivos sin necesidad de contacto físico. Material: Plástico y metal. Color: Amarillo y negro.</p>
+    <p class="price">$100 MXN</p>
+</div>
+
+<div class="category-card">
+    <h4>29. Conector de empalme</h4>
+    <p>Conector utilizado para unir y empalmar cables eléctricos de manera segura y confiable. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$5 MXN por unidad</p>
+</div>
+
+<div class="category-card">
+    <h4>30. Herramienta de engaste</h4>
+    <p>Herramienta utilizada para realizar conexiones eléctricas mediante engarces o terminales. Material: Metal y plástico. Color: Varios colores disponibles.</p>
+    <p class="price">$200 MXN</p>
+</div>
+
+    </div>
+  </section>
+</body>
+
+</html>

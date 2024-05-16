@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - Ferretería Las Fronteras</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: rgba(0, 0, 0, 0.1);
+      background-image: url('serv.jpg');
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-position: center;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffe100;
+      color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f2f2f2;
+      background-color: #000000;
+      color: #fff;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #000000;
+      padding: 20px;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    h5 {
+      font-size: 30px;
+    }
+
+    section {
+      color: white;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .category-card {
+      border: 1px solid #ccc;
+      border-color: white;
+      border-radius: 5px;
+      padding: 10px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #000;
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .category-card:hover {
+      transform: scale(1.1);
+    }
+
+    .category-card:nth-child(1) {
+      background-image: url('aseso.jpg');
+    }
+
+    .category-card:nth-child(2) {
+      background-image: url('pinturita.jpg');
+    }
+
+    .category-card:nth-child(3) {
+      background-image: url('foquin.jpg');
+    }
+
+    .category-image {
+      display: none;
+    }
+
+    .category-card h3 {
+      color: #fff;
+    }
+
+    .category-card p {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="display: flex; align-items: center;">
+    <img src="E:\PROYECTO FINAL\logo.png" style="width: 100px;height: 100px;">
+    <h1 style="margin-left: 20px; text-align: right;">¡NUESTROS SERVICIOS!</h1>
+  </header>
+  <nav>
+    <ul>
+      <li>
+        <p></p>
+      </li>
+      <li><a href="E:\PROYECTO FINAL\ferre32.html">Inicio</a></li>
+      <li>
+        <a href="E:\PROYECTO FINAL\ferreProductos.html">Productos</a>
+      </li>
+      <li>
+        <a href="E:\PROYECTO FINAL\ferreservicios.html">Servicios</a>
+      </li>
+      <li><a href="E:\PROYECTO FINAL\ferrecontactos.html">Nosotros</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="container">
+      <div class="category-card">
+        <h3>Asesoramiento</h3>
+        <p>Damos guia sobre como usar o instalar nuestros productos, asegurandonos que sea lo mas ameno pra el ciente, usted</p>
+      </div>
+      <div class="category-card">
+        <h3>Rotulado y pintura</h3>
+        <p>Ofrecemos servicios de rotulao y pintura, desde dise;o infantiles hsta minimalistas.</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
